@@ -140,7 +140,7 @@ const Home = () => {
               <span>
                 <IconButton 
                   title={<Trans i18nKey="prevBtn" />}
-                  bgColor="#ccc"
+                  bgColor="#eee"
                   reverseIcone
                   icon={<GrFormPrevious />}
                   isDisabled={pageNumber <= 1}

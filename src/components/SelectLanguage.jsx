@@ -36,7 +36,6 @@ const SelectLanguage = () => {
         variant="text"
       >
         <Tooltip title="Select Language">
-          <span>
             {
               language === 'en'
                 ? <US title="English" style={flagStyle}/>
@@ -50,7 +49,6 @@ const SelectLanguage = () => {
                 ? <IN title="India" style={flagStyle}/>
               : <US title="English" style={flagStyle}/>
             }
-          </span>
         </Tooltip>
       </IconButton>
       <Menu

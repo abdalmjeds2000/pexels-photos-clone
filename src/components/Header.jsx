@@ -10,7 +10,7 @@ const Header = () => {
       <div className='px-4 md:px-8 h-16'>
         <div className='h-full flex justify-between items-center'>
           <div className='flex gap-1 items-center font-bold'>
-            <Link to="/">
+            <Link to="/" aria-label="FEXELS" rel="noopener">
               <IoLogoFoursquare 
                 className='text-2xl text-brand-main-color hover:text-brand-main-color-secondary cursor-pointer transition' 
               />
