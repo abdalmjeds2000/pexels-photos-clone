@@ -1,0 +1,272 @@
+export const sampleResponse = {
+  "page": 1,
+  "per_page": 12,
+  "photos": [
+    {
+      "id": 14783460,
+      "width": 4160,
+      "height": 6240,
+      "url": "https://www.pexels.com/photo/person-standing-against-sea-14783460/",
+      "photographer": "Hatice Baran",
+      "photographer_url": "https://www.pexels.com/@hatice-baran-153179658",
+      "photographer_id": 153179658,
+      "avg_color": "#717370",
+      "src": {
+        "original": "https://images.pexels.com/photos/14783460/pexels-photo-14783460.jpeg",
+        "large2x": "https://images.pexels.com/photos/14783460/pexels-photo-14783460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "large": "https://images.pexels.com/photos/14783460/pexels-photo-14783460.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "medium": "https://images.pexels.com/photos/14783460/pexels-photo-14783460.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "small": "https://images.pexels.com/photos/14783460/pexels-photo-14783460.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "portrait": "https://images.pexels.com/photos/14783460/pexels-photo-14783460.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+        "landscape": "https://images.pexels.com/photos/14783460/pexels-photo-14783460.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+        "tiny": "https://images.pexels.com/photos/14783460/pexels-photo-14783460.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+      },
+      "liked": false,
+      "alt": ""
+    },
+    {
+      "id": 14769376,
+      "width": 1830,
+      "height": 2728,
+      "url": "https://www.pexels.com/photo/casual-style-model-posing-with-bag-14769376/",
+      "photographer": "Elena Rubtsova",
+      "photographer_url": "https://www.pexels.com/@elenarubtso",
+      "photographer_id": 177083790,
+      "avg_color": "#8E847A",
+      "src": {
+        "original": "https://images.pexels.com/photos/14769376/pexels-photo-14769376.jpeg",
+        "large2x": "https://images.pexels.com/photos/14769376/pexels-photo-14769376.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "large": "https://images.pexels.com/photos/14769376/pexels-photo-14769376.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "medium": "https://images.pexels.com/photos/14769376/pexels-photo-14769376.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "small": "https://images.pexels.com/photos/14769376/pexels-photo-14769376.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "portrait": "https://images.pexels.com/photos/14769376/pexels-photo-14769376.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+        "landscape": "https://images.pexels.com/photos/14769376/pexels-photo-14769376.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+        "tiny": "https://images.pexels.com/photos/14769376/pexels-photo-14769376.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+      },
+      "liked": false,
+      "alt": "FUXURY GIRL"
+    },
+    {
+      "id": 14768797,
+      "width": 4000,
+      "height": 6000,
+      "url": "https://www.pexels.com/photo/umberto-a-mare-restaurant-on-the-coast-in-forio-italy-14768797/",
+      "photographer": "Nati",
+      "photographer_url": "https://www.pexels.com/@nati-87264186",
+      "photographer_id": 87264186,
+      "avg_color": "#687073",
+      "src": {
+        "original": "https://images.pexels.com/photos/14768797/pexels-photo-14768797.jpeg",
+        "large2x": "https://images.pexels.com/photos/14768797/pexels-photo-14768797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "large": "https://images.pexels.com/photos/14768797/pexels-photo-14768797.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "medium": "https://images.pexels.com/photos/14768797/pexels-photo-14768797.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "small": "https://images.pexels.com/photos/14768797/pexels-photo-14768797.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "portrait": "https://images.pexels.com/photos/14768797/pexels-photo-14768797.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+        "landscape": "https://images.pexels.com/photos/14768797/pexels-photo-14768797.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+        "tiny": "https://images.pexels.com/photos/14768797/pexels-photo-14768797.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+      },
+      "liked": false,
+      "alt": ""
+    },
+    {
+      "id": 14758717,
+      "width": 3057,
+      "height": 4586,
+      "url": "https://www.pexels.com/photo/a-person-standing-in-a-fog-14758717/",
+      "photographer": "Hatice Noğman",
+      "photographer_url": "https://www.pexels.com/@nogman",
+      "photographer_id": 58866212,
+      "avg_color": "#8E8888",
+      "src": {
+        "original": "https://images.pexels.com/photos/14758717/pexels-photo-14758717.jpeg",
+        "large2x": "https://images.pexels.com/photos/14758717/pexels-photo-14758717.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "large": "https://images.pexels.com/photos/14758717/pexels-photo-14758717.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "medium": "https://images.pexels.com/photos/14758717/pexels-photo-14758717.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "small": "https://images.pexels.com/photos/14758717/pexels-photo-14758717.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "portrait": "https://images.pexels.com/photos/14758717/pexels-photo-14758717.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+        "landscape": "https://images.pexels.com/photos/14758717/pexels-photo-14758717.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+        "tiny": "https://images.pexels.com/photos/14758717/pexels-photo-14758717.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+      },
+      "liked": false,
+      "alt": ""
+    },
+    {
+      "id": 14747076,
+      "width": 4000,
+      "height": 6000,
+      "url": "https://www.pexels.com/photo/christmas-cookies-with-icing-14747076/",
+      "photographer": "Nati",
+      "photographer_url": "https://www.pexels.com/@nati-87264186",
+      "photographer_id": 87264186,
+      "avg_color": "#675F52",
+      "src": {
+        "original": "https://images.pexels.com/photos/14747076/pexels-photo-14747076.jpeg",
+        "large2x": "https://images.pexels.com/photos/14747076/pexels-photo-14747076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "large": "https://images.pexels.com/photos/14747076/pexels-photo-14747076.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "medium": "https://images.pexels.com/photos/14747076/pexels-photo-14747076.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "small": "https://images.pexels.com/photos/14747076/pexels-photo-14747076.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "portrait": "https://images.pexels.com/photos/14747076/pexels-photo-14747076.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+        "landscape": "https://images.pexels.com/photos/14747076/pexels-photo-14747076.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+        "tiny": "https://images.pexels.com/photos/14747076/pexels-photo-14747076.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+      },
+      "liked": false,
+      "alt": ""
+    },
+    {
+      "id": 14743453,
+      "width": 5133,
+      "height": 6902,
+      "url": "https://www.pexels.com/photo/photo-of-ancient-ruins-in-petra-jordan-14743453/",
+      "photographer": "Marco Casella",
+      "photographer_url": "https://www.pexels.com/@marco-casella-370088636",
+      "photographer_id": 370088636,
+      "avg_color": "#462F1F",
+      "src": {
+        "original": "https://images.pexels.com/photos/14743453/pexels-photo-14743453.jpeg",
+        "large2x": "https://images.pexels.com/photos/14743453/pexels-photo-14743453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "large": "https://images.pexels.com/photos/14743453/pexels-photo-14743453.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "medium": "https://images.pexels.com/photos/14743453/pexels-photo-14743453.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "small": "https://images.pexels.com/photos/14743453/pexels-photo-14743453.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "portrait": "https://images.pexels.com/photos/14743453/pexels-photo-14743453.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+        "landscape": "https://images.pexels.com/photos/14743453/pexels-photo-14743453.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+        "tiny": "https://images.pexels.com/photos/14743453/pexels-photo-14743453.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+      },
+      "liked": false,
+      "alt": ""
+    },
+    {
+      "id": 14691038,
+      "width": 4160,
+      "height": 5682,
+      "url": "https://www.pexels.com/photo/a-woman-standing-in-a-canyon-14691038/",
+      "photographer": "the cactusena",
+      "photographer_url": "https://www.pexels.com/@thecactusena",
+      "photographer_id": 302579511,
+      "avg_color": "#6C5545",
+      "src": {
+        "original": "https://images.pexels.com/photos/14691038/pexels-photo-14691038.jpeg",
+        "large2x": "https://images.pexels.com/photos/14691038/pexels-photo-14691038.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "large": "https://images.pexels.com/photos/14691038/pexels-photo-14691038.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "medium": "https://images.pexels.com/photos/14691038/pexels-photo-14691038.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "small": "https://images.pexels.com/photos/14691038/pexels-photo-14691038.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "portrait": "https://images.pexels.com/photos/14691038/pexels-photo-14691038.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+        "landscape": "https://images.pexels.com/photos/14691038/pexels-photo-14691038.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+        "tiny": "https://images.pexels.com/photos/14691038/pexels-photo-14691038.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+      },
+      "liked": false,
+      "alt": ""
+    },
+    {
+      "id": 14690432,
+      "width": 2432,
+      "height": 3648,
+      "url": "https://www.pexels.com/photo/delicious-breakfast-on-bed-14690432/",
+      "photographer": "Consuelo Borroni",
+      "photographer_url": "https://www.pexels.com/@consuelo-borroni-384723245",
+      "photographer_id": 384723245,
+      "avg_color": "#998F83",
+      "src": {
+        "original": "https://images.pexels.com/photos/14690432/pexels-photo-14690432.jpeg",
+        "large2x": "https://images.pexels.com/photos/14690432/pexels-photo-14690432.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "large": "https://images.pexels.com/photos/14690432/pexels-photo-14690432.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "medium": "https://images.pexels.com/photos/14690432/pexels-photo-14690432.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "small": "https://images.pexels.com/photos/14690432/pexels-photo-14690432.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "portrait": "https://images.pexels.com/photos/14690432/pexels-photo-14690432.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+        "landscape": "https://images.pexels.com/photos/14690432/pexels-photo-14690432.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+        "tiny": "https://images.pexels.com/photos/14690432/pexels-photo-14690432.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+      },
+      "liked": false,
+      "alt": "Free stock photo of breakfast, breakfast flatlay, breakfast in bed"
+    },
+    {
+      "id": 14690500,
+      "width": 3072,
+      "height": 4096,
+      "url": "https://www.pexels.com/photo/carpets-on-display-14690500/",
+      "photographer": "Consuelo Borroni",
+      "photographer_url": "https://www.pexels.com/@consuelo-borroni-384723245",
+      "photographer_id": 384723245,
+      "avg_color": "#907065",
+      "src": {
+        "original": "https://images.pexels.com/photos/14690500/pexels-photo-14690500.jpeg",
+        "large2x": "https://images.pexels.com/photos/14690500/pexels-photo-14690500.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "large": "https://images.pexels.com/photos/14690500/pexels-photo-14690500.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "medium": "https://images.pexels.com/photos/14690500/pexels-photo-14690500.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "small": "https://images.pexels.com/photos/14690500/pexels-photo-14690500.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "portrait": "https://images.pexels.com/photos/14690500/pexels-photo-14690500.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+        "landscape": "https://images.pexels.com/photos/14690500/pexels-photo-14690500.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+        "tiny": "https://images.pexels.com/photos/14690500/pexels-photo-14690500.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+      },
+      "liked": false,
+      "alt": ""
+    },
+    {
+      "id": 14711716,
+      "width": 2433,
+      "height": 3637,
+      "url": "https://www.pexels.com/photo/young-woman-in-casual-clothing-14711716/",
+      "photographer": "Elena Rubtsova",
+      "photographer_url": "https://www.pexels.com/@elenarubtso",
+      "photographer_id": 177083790,
+      "avg_color": "#C8B9B2",
+      "src": {
+        "original": "https://images.pexels.com/photos/14711716/pexels-photo-14711716.jpeg",
+        "large2x": "https://images.pexels.com/photos/14711716/pexels-photo-14711716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "large": "https://images.pexels.com/photos/14711716/pexels-photo-14711716.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "medium": "https://images.pexels.com/photos/14711716/pexels-photo-14711716.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "small": "https://images.pexels.com/photos/14711716/pexels-photo-14711716.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "portrait": "https://images.pexels.com/photos/14711716/pexels-photo-14711716.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+        "landscape": "https://images.pexels.com/photos/14711716/pexels-photo-14711716.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+        "tiny": "https://images.pexels.com/photos/14711716/pexels-photo-14711716.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+      },
+      "liked": false,
+      "alt": "Don’t smoke girl "
+    },
+    {
+      "id": 14816369,
+      "width": 3926,
+      "height": 5889,
+      "url": "https://www.pexels.com/photo/snow-light-city-landscape-14816369/",
+      "photographer": "Nici Gottstein",
+      "photographer_url": "https://www.pexels.com/@nici-gottstein-138431104",
+      "photographer_id": 138431104,
+      "avg_color": "#6A6466",
+      "src": {
+        "original": "https://images.pexels.com/photos/14816369/pexels-photo-14816369.jpeg",
+        "large2x": "https://images.pexels.com/photos/14816369/pexels-photo-14816369.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "large": "https://images.pexels.com/photos/14816369/pexels-photo-14816369.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "medium": "https://images.pexels.com/photos/14816369/pexels-photo-14816369.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "small": "https://images.pexels.com/photos/14816369/pexels-photo-14816369.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "portrait": "https://images.pexels.com/photos/14816369/pexels-photo-14816369.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+        "landscape": "https://images.pexels.com/photos/14816369/pexels-photo-14816369.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+        "tiny": "https://images.pexels.com/photos/14816369/pexels-photo-14816369.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+      },
+      "liked": false,
+      "alt": ""
+    },
+    {
+      "id": 14810602,
+      "width": 2240,
+      "height": 3360,
+      "url": "https://www.pexels.com/photo/wood-light-coffee-building-14810602/",
+      "photographer": "Yelena Odintsova",
+      "photographer_url": "https://www.pexels.com/@yelenaodintsova",
+      "photographer_id": 3068556,
+      "avg_color": "#463E2B",
+      "src": {
+        "original": "https://images.pexels.com/photos/14810602/pexels-photo-14810602.jpeg",
+        "large2x": "https://images.pexels.com/photos/14810602/pexels-photo-14810602.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "large": "https://images.pexels.com/photos/14810602/pexels-photo-14810602.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "medium": "https://images.pexels.com/photos/14810602/pexels-photo-14810602.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "small": "https://images.pexels.com/photos/14810602/pexels-photo-14810602.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "portrait": "https://images.pexels.com/photos/14810602/pexels-photo-14810602.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+        "landscape": "https://images.pexels.com/photos/14810602/pexels-photo-14810602.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+        "tiny": "https://images.pexels.com/photos/14810602/pexels-photo-14810602.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+      },
+      "liked": false,
+      "alt": ""
+    }
+  ],
+  "total_results": 8000,
+  "next_page": "https://api.pexels.com/v1/curated/?page=2&per_page=12"
+}
