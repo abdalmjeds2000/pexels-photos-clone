@@ -7,7 +7,7 @@ This Project Created to Learn Some Topics in ReactJS.
 Technologies:
  - React Js Framework.
  - Context API for storing data.
- - react hooks such as (useState, useEffect and useReduser).
+ - react hooks such as (useState, useEffect, useRef, useContext and useReduser).
  - Fully Responsive with mobile devices.
  - React Router Dom for pages.
  - i18n react for multi languagies.
