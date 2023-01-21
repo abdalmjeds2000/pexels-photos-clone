@@ -6,8 +6,8 @@ import SelectLanguage from './SelectLanguage';
 
 const Header = () => {
   return (
-    <nav className='sec-container fixed top-0 z-10 bg-gray-50 w-full shadow-2xl'>
-      <div className='px-4 md:px-8 h-16'>
+    <nav className='fixed top-0 z-10 bg-gray-50 w-full shadow-2xl'>
+      <div className='sec-container px-4 md:px-8 h-16'>
         <div className='h-full flex justify-between items-center'>
           <div className='flex gap-1 items-center font-bold'>
             <Link to="/" aria-label="FEXELS" rel="noopener">

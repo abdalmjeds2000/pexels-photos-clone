@@ -1,6 +1,6 @@
 import React from 'react'
 
-const IconButton = ({title, icon, bgColor, color, handleClick, reverseIcone, isDisabled}) => {
+const CustomIconButton = ({title, icon, bgColor, color, handleClick, reverseIcone, isDisabled}) => {
   return (
     <>
       <button 
@@ -17,4 +17,4 @@ const IconButton = ({title, icon, bgColor, color, handleClick, reverseIcone, isD
   )
 }
 
-export default IconButton
+export default CustomIconButton

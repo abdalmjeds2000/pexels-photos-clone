@@ -4,6 +4,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Search from './pages/Search';
+import ScrollToTop from './helpers/ScrollToTop';
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
     <BrowserRouter>
       <div id="app-container" className='min-w-full bg-white min-h-screen mt-16'>
         <Header />
+        <ScrollToTop />
         
         <Routes>
           {/* Home */}

@@ -1,21 +1,20 @@
 import { Box, Button, FormControl, Grid, InputLabel, LinearProgress, MenuItem, Select, Tooltip } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import heroImg from '../assets/hero.jpg'
-import IconButton from '../components/IconButton';
+import heroImg from '../assets/hero.jpg';
+import CustomIconButton from '../components/CustomIconButton';
 import SearchInput from '../components/SearchInput';
 import { useStateContext } from '../context/ContextProvider';
 import { popularSearches } from '../data/heplers';
 import { GrFormPrevious, GrFormNext } from 'react-icons/gr';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-import { Trans, useTranslation } from 'react-i18next';
+import { Trans } from 'react-i18next';
+import ImageCard from '../components/ImageCard';
 
 
 
 
 const Home = () => {
-  const { t } = useTranslation();
   const navigate = useNavigate();
   const { fetchCuratedPhotos } = useStateContext();
   const [data, setData] = useState([]);
@@ -30,7 +29,7 @@ const Home = () => {
     setLoading(false);
   }
   useEffect(() => {
-    fetchData(pageNumber)
+    fetchData(pageNumber);
   }, [pageNumber])
 
 
@@ -121,15 +120,14 @@ const Home = () => {
               data?.map((photo, i) => {
                 return (
                   <Grid key={i} xs={12} sm={6} md={4} lg={3} xl={3} item>
-                    <div className='w-full flex rounded-lg transition-all hover:cursor-pointer relative hover:rounded-2xl shadow-lg hover:shadow-2xl overflow-hidden' style={{backgroundColor: photo?.avg_color}}>
-                      <LazyLoadImage
-                        alt={photo?.alt}
-                        effect="blur"
-                        width='100%'
-                        style={{transition: '.3s'}}
-                        className="w-full hover:scale-105"
-                        src={photo?.src?.tiny} />
-                    </div>
+                    <ImageCard 
+                      src={photo?.src?.tiny}
+                      alt={photo?.alt} 
+                      photographer={photo?.photographer}
+                      photographer_url={photo?.photographer_url}
+                      avg_color={photo?.avg_color}
+                      downloadLink={photo?.src?.original}
+                    />
                   </Grid>
                 )
               })
@@ -138,7 +136,7 @@ const Home = () => {
           <div className='w-full flex gap-2 my-5 items-center justify-center'>
             <Tooltip title={pageNumber > 1 ? "Click To Fetch previous Page" : "you are in first page"} placement="top">
               <span>
-                <IconButton 
+                <CustomIconButton 
                   title={<Trans i18nKey="prevBtn" />}
                   bgColor="#eee"
                   reverseIcone
@@ -157,7 +155,7 @@ const Home = () => {
             </Tooltip>
             <Tooltip title="Click To Fetch next Page" placement="top">
               <span>
-                <IconButton 
+                <CustomIconButton 
                   title={<Trans i18nKey="nextBtn" />}
                   bgColor="var(--brand-main-color)"
                   icon={<GrFormNext />}

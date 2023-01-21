@@ -31,26 +31,27 @@ const SelectLanguage = () => {
 
   return (
     <React.Fragment>
-      <IconButton
-        onClick={handleClick}
-        variant="text"
-      >
-        <Tooltip title="Select Language">
-            {
-              language === 'en'
-                ? <US title="English" style={flagStyle}/>
-              : language === 'ar'
-                ? <SA title="Arabic" style={flagStyle}/>
-              : language === 'es'
-                ? <ES title="Spain" style={flagStyle}/>
-              : language === 'fr'
-                ? <FR title="Frensh" style={flagStyle}/>
-              : language === 'in'
-                ? <IN title="India" style={flagStyle}/>
-              : <US title="English" style={flagStyle}/>
-            }
-        </Tooltip>
-      </IconButton>
+      <Tooltip title="Select Language">
+        <IconButton
+          onClick={handleClick}
+          variant="text"
+        >
+        
+          {
+            language === 'en'
+              ? <US title="English" style={flagStyle}/>
+            : language === 'ar'
+              ? <SA title="Arabic" style={flagStyle}/>
+            : language === 'es'
+              ? <ES title="Spain" style={flagStyle}/>
+            : language === 'fr'
+              ? <FR title="Frensh" style={flagStyle}/>
+            : language === 'in'
+              ? <IN title="India" style={flagStyle}/>
+            : <US title="English" style={flagStyle}/>
+          }
+        </IconButton>
+      </Tooltip>
       <Menu
         id="demo-positioned-menu"
         aria-labelledby="demo-positioned-button"
