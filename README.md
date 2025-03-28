@@ -1,7 +1,7 @@
 # FEXELS Images Website
 A modern clone of Pexels for free stock images
 
-Live Demo: [React Pexels Clone](https://fexels.netlify.app/){target="_blank"}
+Live Demo: [React Pexels Clone](https://fexels.netlify.app/)
 
 This project is a recreation of the Pexels stock image website, built to demonstrate expertise in ReactJS and related technologies. The application provides a seamless user experience for browsing, searching, and previewing high-quality stock images.
 
