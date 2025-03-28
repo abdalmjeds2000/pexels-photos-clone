@@ -37,16 +37,14 @@ The primary goal of this project was to learn and implement various ReactJS conc
  - Image preview modal for detailed viewing
 
 # How to Use
- 1. Clone the repository using git clone
- 2. Install dependencies with npm install
- 3. Set up your Pexels API key (inside .env file as REACT_APP_PEXELS_API_KEY=****)
- 4. Run the application with npm start
+1. Clone the repository using git clone
+2. Install dependencies with npm install
+3. Set up your Pexels API key (inside .env file as REACT_APP_PEXELS_API_KEY=****)
+4. Run the application with npm start
 
 This project serves as a practical example of building a feature-rich, responsive web application using React and modern JavaScript technologies.
 
-Creator: AbdAlmjed Skaik
-Last Update: March 28, 2025
-
+Creator: @abdalmjeds2000,
  
 Screenshots:
 ![FEXELS 1](https://user-images.githubusercontent.com/94318021/213876530-55433b91-7333-44e3-9c6b-faaa3d427e79.png)
