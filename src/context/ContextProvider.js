@@ -17,12 +17,10 @@ const fetchDataSearch = async (query, page) => {
   const API_KEY = process.env.REACT_APP_PEXELS_API_KEY;
   const options = {
     method: 'GET',
-    url: 'https://pexelsdimasv1.p.rapidapi.com/v1/search',
-    params: {query: query, per_page: '24', page: page},
+    url: 'https://api.pexels.com/v1/search',
+    params: {query: query, per_page: '25', page: page},
     headers: {
       Authorization: API_KEY,
-      'X-RapidAPI-Key': '700f3ec77amsh374abf9e06a720bp1363e1jsnbf5dead5ff88',
-      'X-RapidAPI-Host': 'PexelsdimasV1.p.rapidapi.com'
     },
     cancelToken: new CancelToken(c => cancel = c)
   };
@@ -42,12 +40,10 @@ const fetchCuratedPhotos = async (page) => {
   const API_KEY = process.env.REACT_APP_PEXELS_API_KEY;
   const options = {
     method: 'GET',
-    url: 'https://pexelsdimasv1.p.rapidapi.com/v1/curated',
-    params: {per_page: '24', page: page},
+    url: 'https://api.pexels.com/v1/curated',
+    params: {per_page: '48', page: page},
     headers: {
       Authorization: API_KEY,
-      'X-RapidAPI-Key': '700f3ec77amsh374abf9e06a720bp1363e1jsnbf5dead5ff88',
-      'X-RapidAPI-Host': 'PexelsdimasV1.p.rapidapi.com'
     },
     cancelToken: new CancelToken(c => cancel = c)
   };

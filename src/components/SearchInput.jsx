@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { IconButton, InputBase, Paper } from '@mui/material';
 import { BiSearch } from 'react-icons/bi';
 import { useNavigate } from 'react-router-dom'
+import { t } from 'i18next';
 const SearchInput = () => {
   const navigate = useNavigate();
   let inputRef = useRef();
@@ -19,7 +20,7 @@ const SearchInput = () => {
         <InputBase
           inputRef={inputRef}
           sx={{ ml: 1, flex: 1 }}
-          placeholder="Search for free photos"
+          placeholder={t("searchInputPlaceholder")}
           inputProps={{
             onKeyDown: (e) => {
               if(e.key === "Enter") {

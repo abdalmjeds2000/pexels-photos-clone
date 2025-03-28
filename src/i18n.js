@@ -13,7 +13,10 @@ i18next
       translation: {
         // hero: "The best free stock photos, royalty free images shared by creators."
         nextBtn: "Next",
-        prevBtn: "Previous"
+        prevBtn: "Previous",
+        searchResultTitle: "Result for search about",
+        searchInputPlaceholder: "Search for free photos",
+        homeImagesSectionTitle: "Free Stock Photos"
       }
     },
     ar: {
@@ -21,6 +24,9 @@ i18next
         hero: "أفضل الصور المجانية ، الصور المجانية الملوك التي يشاركها المبدعون.",
         nextBtn: "التالي",
         prevBtn: "السابق",
+        searchResultTitle: "نتيجة البحث عن",
+        searchInputPlaceholder: "ابحث عن صور مجانية",
+        homeImagesSectionTitle: "صور فوتوغرافية مجانية"
       }
     },
     es: {
@@ -28,6 +34,9 @@ i18next
         hero: "Las mejores fotos de stock gratuitas, imágenes libres de regalías compartidas por los creadores.",
         nextBtn: "Próximo",
         prevBtn: "Previo",
+        searchResultTitle: "Resultado de la búsqueda sobre",
+        searchInputPlaceholder: "Buscar fotos gratis",
+        homeImagesSectionTitle: "Fotografías de stock gratuitas"
       }
     },
     fr: {
@@ -35,13 +44,9 @@ i18next
         hero: "Les meilleures photos gratuites, images libres de droits partagées par les créateurs.",
         nextBtn: "Suivant",
         prevBtn: "précédent",
-      }
-    },
-    in: {
-      translation: {
-        hero: "रचनाकारों द्वारा साझा की गई सर्वश्रेष्ठ मुफ्त स्टॉक तस्वीरें, रॉयल्टी मुक्त छवियां।",
-        nextBtn: "अगला",
-        prevBtn: "पहले का",
+        searchResultTitle: "Résultat de la recherche sur",
+        searchInputPlaceholder: "Rechercher des photos gratuites",
+        homeImagesSectionTitle: "Photos gratuites"
       }
     }
   }

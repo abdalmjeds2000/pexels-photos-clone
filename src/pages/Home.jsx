@@ -10,6 +10,7 @@ import { GrFormPrevious, GrFormNext } from 'react-icons/gr';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { Trans } from 'react-i18next';
 import ImageCard from '../components/ImageCard';
+import { t } from 'i18next';
 
 
 
@@ -90,9 +91,9 @@ const Home = () => {
         </section>
       </div>
 
-      <div className='sec-container px-3 md:px-6 mb-4'>
+      <div className='sec-container w-full px-3 md:px-6 mb-4'>
         <div className='flex items-center justify-between'>
-          <h1 className='text-2xl font-semibold'>Free Stock Photos</h1>
+          <h1 className='text-2xl font-semibold'>{t("homeImagesSectionTitle")}</h1>
           <Box sx={{ minWidth: 120 }}>
             <FormControl fullWidth>
               <InputLabel id="demo-simple-select-label">Select</InputLabel>
@@ -115,24 +116,23 @@ const Home = () => {
 
       <div className='sec-container mb-4 px-3 md:px-6'>
         <div className='flex flex-wrap'>
-          <Grid container spacing={3}>
+          <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4'>
             {
               data?.map((photo, i) => {
                 return (
-                  <Grid key={i} xs={12} sm={6} md={4} lg={3} xl={3} item>
-                    <ImageCard 
-                      src={photo?.src?.tiny}
-                      alt={photo?.alt} 
-                      photographer={photo?.photographer}
-                      photographer_url={photo?.photographer_url}
-                      avg_color={photo?.avg_color}
-                      downloadLink={photo?.src?.original}
-                    />
-                  </Grid>
+                  <ImageCard 
+                    key={photo?.id}
+                    src={photo?.src?.medium}
+                    alt={photo?.alt} 
+                    photographer={photo?.photographer}
+                    photographer_url={photo?.photographer_url}
+                    avg_color={photo?.avg_color}
+                    downloadLink={photo?.src?.original}
+                  />
                 )
               })
             }
-          </Grid>
+          </div>
           <div className='w-full flex gap-2 my-5 items-center justify-center'>
             <Tooltip title={pageNumber > 1 ? "Click To Fetch previous Page" : "you are in first page"} placement="top">
               <span>

@@ -6,6 +6,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import CustomIconButton from '../components/CustomIconButton';
 import ImageCard from '../components/ImageCard';
 import { useStateContext } from '../context/ContextProvider';
+import { t } from 'i18next';
 
 const Search = () => {
   const { dispatchQuery, searchResult, searchLoading } = useStateContext();
@@ -35,13 +36,13 @@ const Search = () => {
   return (
     <div>
       <div className='sec-container p-3 md:p-6'>
-        <p className='text-2xl text-gray-700 mb-8'>Result for search about: <mark>{q}</mark>.</p>
+        <p className='text-lg text-gray-700 mb-8'>{t('searchResultTitle')}: <mark>{q}</mark>.</p>
         <div className='flex flex-wrap'>
           <div style={{columns: '250px 6'}}>
             {
               searchResult.photos?.map((photo, i) => {
                 return (
-                  <div key={i} className='mb-4'>
+                  <div key={photo?.id} className='mb-4'>
                     <ImageCard 
                       src={photo?.src?.medium}
                       alt={photo?.alt} 
